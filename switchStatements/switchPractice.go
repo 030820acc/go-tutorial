@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func SwitchTest() {
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Print("Enter your favorite Adventure Time character: ")
 	scanner.Scan()
@@ -24,4 +24,8 @@ func main() {
 	default:
 		fmt.Println("thats a good choice")
 	}
+}
+
+func main() {
+	SwitchTest()
 }
