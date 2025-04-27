@@ -1,4 +1,4 @@
-package switchStatements
+package switchPractice
 
 import (
 	"bufio"
