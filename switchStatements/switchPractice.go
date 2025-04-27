@@ -1,4 +1,4 @@
-package main
+package switchStatements
 
 import (
 	"bufio"
@@ -24,8 +24,4 @@ func SwitchTest() {
 	default:
 		fmt.Println("thats a good choice")
 	}
-}
-
-func main() {
-	SwitchTest()
 }
